@@ -1,0 +1,21 @@
+body {
+  background-image: url("../images/misbehavin.png");
+
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  height: 800px;
+  background: rgba(23, 20, 20, 0.938);
+}
+
+.main-heading {
+  color: white;
+  font-size: 50px;
+}
+
+.main-intro-text {
+  color: white;
+  font-size: 25px;
+}
