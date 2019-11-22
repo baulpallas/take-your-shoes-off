@@ -5,6 +5,21 @@ body {
   background-position: center;
 }
 
+.navbar {
+  background-color: rgb(65, 55, 55);
+  height: 80px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 25px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
 .container {
   height: 800px;
   background: rgba(23, 20, 20, 0.938);
