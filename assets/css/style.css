@@ -16,7 +16,9 @@ body {
   color: white;
   font-size: 25px;
 }
-
+#navbar-logo {
+  height: 60px;
+}
 .nav-link {
   color: white;
   font-size: 20px;
@@ -63,4 +65,16 @@ body {
 
 #gallery-button:active {
   color: black;
+}
+
+/* Styling for gallery page */
+.content-type-header {
+  color: white;
+  font-size: 35px;
+  border: 2px dotted white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 }
