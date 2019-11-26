@@ -1,6 +1,8 @@
 body {
   background-image: url("../images/misbehavin.png");
+  font-family: cursive;
 
+  font-weight: 300;
   background-attachment: fixed;
   background-position: center;
 }
@@ -33,4 +35,16 @@ body {
 .main-intro-text {
   color: white;
   font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.event-type-header {
+  color: white;
+  font-size: 35px;
+  border: 2px dotted white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 }
