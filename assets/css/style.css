@@ -48,3 +48,19 @@ body {
   justify-content: center;
   height: 100px;
 }
+
+#gallery-button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 60px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#gallery-button:hover {
+  background-color: rgb(244, 244, 51);
+  color: white;
+}
+
+#gallery-button:active {
+  color: black;
+}
