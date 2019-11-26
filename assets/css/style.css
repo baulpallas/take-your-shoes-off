@@ -31,6 +31,7 @@ body {
 .container {
   height: 800px;
   background: rgba(23, 20, 20, 0.938);
+  overflow: auto;
 }
 
 .main-heading {
@@ -46,13 +47,13 @@ body {
 
 .event-type-header {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   border: 2px dotted white;
   font-family: "Courier New", Courier, monospace;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 115px;
 }
 
 #gallery-button {
