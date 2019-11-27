@@ -123,3 +123,14 @@ body {
   justify-content: center;
   height: 100px;
 }
+
+/* Band page styling */
+
+.member-headshot:hover {
+  opacity: 0.5;
+}
+
+.brightness {
+  background-color: white;
+  display: inline-block;
+}
