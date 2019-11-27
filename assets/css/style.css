@@ -108,7 +108,9 @@ body {
   justify-content: center;
   height: 100px;
 }
-
+.insta-handle {
+  color: white;
+}
 /* contact page styling */
 .contact-type-container {
   border: 2px dotted white;
