@@ -134,3 +134,8 @@ body {
   background-color: white;
   display: inline-block;
 }
+
+.member-name-active {
+  color: white;
+  font-size: 40px;
+}
