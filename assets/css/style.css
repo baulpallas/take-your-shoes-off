@@ -49,6 +49,7 @@ body {
   color: white;
   font-size: 25px;
   font-family: "Courier New", Courier, monospace;
+  padding-bottom: 10px;
 }
 
 .event-type-header {
@@ -77,6 +78,14 @@ body {
 
 #gallery-button:active {
   color: black;
+}
+
+.our-story-heading {
+  color: white;
+}
+
+.our-story-body {
+  color: white;
 }
 
 /* Styling for gallery page */
@@ -181,5 +190,8 @@ body {
   #gallery-button {
     font-size: 30px;
     padding: 2px;
+  }
+  .event-type-header {
+    display: none;
   }
 }
