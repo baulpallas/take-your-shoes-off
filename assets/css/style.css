@@ -130,6 +130,11 @@ body {
   height: 100px;
 }
 
+.contact-info-item {
+  color: white;
+  font-size: 20px;
+}
+
 /* Band page styling */
 
 .member-headshot:hover {
@@ -172,5 +177,9 @@ body {
   }
   .member-image-active {
     width: 100%;
+  }
+  #gallery-button {
+    font-size: 30px;
+    padding: 2px;
   }
 }
