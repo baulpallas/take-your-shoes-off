@@ -11,6 +11,10 @@ body {
   background-position: center;
 }
 
+p {
+  color: white;
+}
+
 .bg-dark {
   background: rgba(23, 20, 20, 0.938) !important;
 }
@@ -81,10 +85,6 @@ body {
 }
 
 .our-story-heading {
-  color: white;
-}
-
-.our-story-body {
   color: white;
 }
 
