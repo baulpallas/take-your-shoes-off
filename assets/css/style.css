@@ -194,4 +194,7 @@ body {
   .event-type-header {
     display: none;
   }
+  .member-image-active {
+    max-height: 200px;
+  }
 }
