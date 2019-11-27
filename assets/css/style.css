@@ -4,7 +4,7 @@ html {
 
 body {
   background-image: url("../images/misbehavin.png");
-  font-family: cursive;
+  font-family: "Courier New", Courier, monospace;
   height: 100vh;
   font-weight: 300;
   background-attachment: fixed;
@@ -12,8 +12,9 @@ body {
 }
 
 .navbar {
-  background-color: rgb(65, 55, 55);
+  background: rgba(23, 20, 20, 0.938);
   height: 80px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .navbar-brand {
@@ -37,6 +38,7 @@ body {
 .main-heading {
   color: white;
   font-size: 50px;
+  font-family: cursive;
 }
 
 .main-intro-text {
@@ -61,11 +63,12 @@ body {
   font-size: 60px;
   padding: 15px;
   font-weight: 600;
+  background-color: antiquewhite;
 }
 
 #gallery-button:hover {
-  background-color: rgb(244, 244, 51);
-  color: white;
+  background-color: rgb(203, 203, 41);
+  color: antiquewhite;
 }
 
 #gallery-button:active {
@@ -92,4 +95,31 @@ body {
   align-items: center;
   justify-content: center;
   margin: 10px;
+}
+
+/* Social media page stylings */
+.social-media-header {
+  color: white;
+  font-size: 35px;
+  border: 2px dotted white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+/* contact page styling */
+.contact-type-container {
+  border: 2px dotted white;
+}
+.contact-type-header {
+  color: white;
+  font-size: 35px;
+
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 }
