@@ -148,3 +148,23 @@ body {
   font-size: 20px;
   color: white;
 }
+
+.member-bio-active {
+  color: white;
+  width: 50%;
+}
+.member-image-active {
+  width: 50%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* .inactive-member {
+    display: none;
+  } */
+  .member-bio-active {
+    width: 90%;
+  }
+  .member-image-active {
+    width: 100%;
+  }
+}
