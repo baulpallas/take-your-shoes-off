@@ -2,6 +2,11 @@ html {
   height: 100vh;
 }
 
+footer {
+  background: rgba(23, 20, 20, 0.938) !important;
+  height: 55px;
+  margin-top: 15px;
+}
 body {
   background-image: url("../images/misbehavin.png");
   font-family: "Courier New", Courier, monospace;
