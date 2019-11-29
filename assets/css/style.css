@@ -2,14 +2,9 @@ html {
   height: 100vh;
 }
 
-footer {
-  background: rgba(23, 20, 20, 0.938) !important;
-  height: 55px;
-  margin-top: 15px;
-}
 body {
   background-image: url("../images/misbehavin.png");
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   height: 100vh;
   font-weight: 300;
   background-attachment: fixed;
@@ -21,13 +16,13 @@ p {
 }
 
 .bg-dark {
-  background: rgba(23, 20, 20, 0.938) !important;
+  background: black !important;
 }
 
 .navbar {
-  background: rgba(23, 20, 20, 0.938);
+  background: black;
   /* height: 80px; */
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .navbar-brand {
@@ -44,14 +39,15 @@ p {
 
 .container {
   height: 800px;
-  background: rgba(23, 20, 20, 0.938);
+  background: black;
+  opacity: 0.98;
   overflow: auto;
 }
 
 .main-heading {
   color: white;
   font-size: 50px;
-  font-family: cursive;
+  font-family: "Lobster", cursive;
 }
 
 .main-intro-text {
@@ -93,6 +89,12 @@ p {
   color: white;
 }
 
+footer {
+  background: black !important;
+  height: 55px;
+  margin-top: 15px;
+}
+
 /* Styling for gallery page */
 .content-type-header {
   color: white;
@@ -117,7 +119,7 @@ p {
 
 /* Social media page stylings */
 .social-media-header {
-  color: white;
+  color: black;
   font-size: 35px;
   border: 2px dotted white;
   font-family: "Courier New", Courier, monospace;
