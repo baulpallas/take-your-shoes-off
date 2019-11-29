@@ -3,7 +3,9 @@ html {
 }
 
 body {
-  background-image: url("../images/misbehavin.png");
+  background-image: url("../images/IMG_1506.JPG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   font-family: "Roboto Mono", monospace;
   height: 100vh;
   font-weight: 300;
@@ -34,12 +36,12 @@ p {
 }
 .nav-link {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .container {
   height: 800px;
-  background: black;
+  background: #303030;
   opacity: 0.98;
   overflow: auto;
 }
@@ -52,8 +54,8 @@ p {
 
 .main-intro-text {
   color: white;
-  font-size: 25px;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
   padding-bottom: 10px;
 }
 
@@ -82,7 +84,7 @@ p {
 }
 
 #gallery-button:active {
-  color: black;
+  color: white;
 }
 
 .our-story-heading {
@@ -93,6 +95,13 @@ footer {
   background: black !important;
   height: 55px;
   margin-top: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.my-3 {
+  font-size: 12px;
 }
 
 /* Styling for gallery page */
@@ -110,7 +119,7 @@ footer {
 .content-video-header {
   color: white;
   font-size: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,7 +128,7 @@ footer {
 
 /* Social media page stylings */
 .social-media-header {
-  color: black;
+  color: white;
   font-size: 35px;
   border: 2px dotted white;
   font-family: "Courier New", Courier, monospace;
@@ -138,7 +147,6 @@ footer {
 .contact-type-header {
   color: white;
   font-size: 35px;
-
   font-family: "Courier New", Courier, monospace;
   display: flex;
   align-items: center;
